@@ -4,8 +4,6 @@ plugins {
     java
 }
 
-var minestomVersion = "42195c536b"
-
 group = "fr.bretzel.minestom.utils"
 version = "1.0.0"
 
@@ -16,7 +14,7 @@ repositories {
 
 dependencies {
     //Minestom
-    implementation("com.github.Minestom:Minestom:$minestomVersion")
+    implementation("net.minestom:minestom-snapshots:2f5bb97908")
 
     //ALS Lib
     implementation("com.github.ALS-Project:Minestom-States:d42b0086f1")
